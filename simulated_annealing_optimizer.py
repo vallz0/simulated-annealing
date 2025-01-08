@@ -58,7 +58,7 @@ if __name__ == "__main__":
     ]
     destination = "FCO"
 
-    file_path = "../hill-climb/flights.txt"
+    file_path = "flights.txt"
     flights = load_flights(file_path)
 
     optimizer = HillClimbOptimizer(people, destination, flights)
